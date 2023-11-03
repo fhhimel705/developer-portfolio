@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+/* header and navi styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 43px 230px;
+}
+nav li {
+  list-style: none;
+  margin-left: 50px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-title {
+  color: var(--Dark-01, #181818);
+  font-size: 45px;
+  font-weight: 800;
+}
+.m {
+  color: #fd6e0a;
+}
+.hire {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px;
+  height: 64px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: var(--White-Color, #fff);
+  border: 0;
+}
+/* banner */
+.banner{
+margin: 0 200px;
+display: flex;
+align-items: center;
+}
+.hi{
+    color: var(--Dark-02, #474747);
+font-size: 45px;
+font-weight: 600;
+}
+.fh{
+    color: var(--Dark-01, #181818);
+font-size: 85px;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+.p-0{
+    color: var(--Dark-03, #757575);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 30px;
+
+}
+.cv{
+    border-radius: 5px;
+background: #FD6E0A;
+border: 0;
+color: var(--White-Color, #FFF);
+text-align: center;
+padding: 19px 17px 18px 51px;
+font-size: 20px;
+font-weight: 700;
+
+}
+.contact{
+    margin-left: 30px;
+border-radius: 5px;
+border: 1px solid #FD6E0A;
+padding: 19px 23px 18px 58px;
+color: #FD6E0A;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+}
+.header{
+    background: #FFF8F3;
+    background-image: url(/images/header_bg.png),url(/images/developer.png); 
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* section styles */
+.about{
+border-radius: 10px;
+background: #FFF8F3;
+margin-top: 123px;
+padding: 131px 156px;
+text-align: center;
+}
+.section-title{
+color: var(--Dark-01, #181818);
+font-size: 35px;
+font-weight: 700;
+margin-bottom: 30px;
+
+}
+.description-0{
+    color: var(--Dark-03, #757575);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+margin-bottom: 30px;
+
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+color: var(--Dark-03, #757575);
+ text-align: center;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+}
+.info-value{
+    color: var(--Dark-02, #474747);
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+}
