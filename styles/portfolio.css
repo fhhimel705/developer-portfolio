@@ -183,3 +183,75 @@ text-align: left;
 .what-i-do  img{
     padding: 30px 193px 30px 30px;
 }
+.sum{
+    display: flex;
+    justify-content: space-around;
+    color: var(--Dark-02, #474747);
+font-size: 30px;
+font-weight: 700;
+margin-top: 65px;
+}
+.summary{
+    text-align: center;
+    margin-top: 130px;
+}
+.section-title-2{
+    color: var(--Dark-01, #181818);
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+.summary-1{
+    display: flex;
+}
+.summary-1-1{
+    display: flex;
+}
+.resume-title{
+    color: var(--Dark-01, #181818);
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+margin-top: 100px;
+}
+.resume-1{
+    display: flex;
+}
+.h-title-0{
+    color: var(--Dark-02, #474747);
+font-size: 30px;
+font-weight: 700;
+margin-top: 113px;
+}
+.master{
+    color: var(--Dark-02, #474747);
+font-size: 25px;
+font-weight: 700;
+margin-top: 30px;
+}
+.harvard{
+    color: var(--Dark-03, #757575);
+font-size: 20px;
+font-weight: 600;
+margin-top: 10px;
+}
+.p-0-0{
+    color: var(--Dark-03, #757575);
+font-size: 16px;
+font-weight: 400;
+line-height: 28px; 
+margin-top: 20px;
+margin-right: 71px;
+border-bottom: solid;
+}
+.cv-0-0{
+    border-radius: 5px;
+background: #FD6E0A;
+border: 0;
+color: var(--White-Color, #FFF);
+text-align: center;
+padding: 19px 17px 18px 51px;
+font-size: 20px;
+font-weight: 700;
+
+}
