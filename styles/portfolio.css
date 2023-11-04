@@ -244,14 +244,69 @@ margin-top: 20px;
 margin-right: 71px;
 border-bottom: solid;
 }
-.cv-0-0{
-    border-radius: 5px;
-background: #FD6E0A;
-border: 0;
-color: var(--White-Color, #FFF);
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+.contact-0-1{
+    margin-top: 113px;
+background: #FFF8F3;
+}
+.contact-0-2{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.h-0-5{
+    color: var(--Dark-01, #181818);
 text-align: center;
-padding: 19px 17px 18px 51px;
+font-size: 35px;
+font-weight: 700;
+margin-top: 70px;
+text-align: left;
+}
+.article-0{
+    color: var(--Dark-02, #474747);
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+margin-top: 20px;
+margin-right: 117px;
+}
+.mssg{
+    color: var(--Dark-01, #181818);
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+margin-top: 70px;
+text-align: left;
+}
+input{
+    border-radius: 5px;
+background: var(--White-Color, #FFF);
+padding: 18px 300px 18px 30px;
+border: none;
+margin-top: 28px;
+}
+textarea{
+margin-top: 28px;
+border: none;
+padding: 18px 300px 134px 30px;   
+}
+.btn-0-9{
+    color: var(--White-Color, #FFF);
+text-align: center;
 font-size: 20px;
 font-weight: 700;
-margin-top: 50px;
+    border-radius: 5px;
+background: #FD6E0A;
+padding: 18px 39px;
+margin-top: 29px;
+margin-bottom: 130px;
+border: none;
+
+}
+.icon-0 img{
+    margin-top: 30px;
+    margin-right: 24px;
 }
