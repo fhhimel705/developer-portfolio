@@ -6,7 +6,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 43px 230px;
+  padding: 43px 230px;
 }
 nav li {
   list-style: none;
