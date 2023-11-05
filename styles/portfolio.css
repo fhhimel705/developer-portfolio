@@ -222,6 +222,16 @@ margin-top: 100px;
 font-size: 30px;
 font-weight: 700;
 margin-top: 113px;
+box-shadow: 10px 10px 10px lightgray;
+margin-right: 50px;
+}
+.h-title-01{
+color: var(--Dark-02, #474747);
+font-size: 30px;
+font-weight: 700;
+margin-top: 15px;
+box-shadow: 10px 10px 10px lightgray;
+margin-right: 50px;
 }
 .master{
     color: var(--Dark-02, #474747);
@@ -242,7 +252,6 @@ font-weight: 400;
 line-height: 28px; 
 margin-top: 20px;
 margin-right: 71px;
-border-bottom: solid;
 }
 .resume-btn{
     margin-top: 50px;
@@ -287,11 +296,13 @@ background: var(--White-Color, #FFF);
 padding: 18px 300px 18px 30px;
 border: none;
 margin-top: 28px;
+box-shadow: 10px 10px 10px lightgray;
 }
 textarea{
 margin-top: 28px;
 border: none;
 padding: 18px 300px 134px 30px;   
+box-shadow: 10px 10px 10px lightgray;
 }
 .btn-0-9{
     color: var(--White-Color, #FFF);
