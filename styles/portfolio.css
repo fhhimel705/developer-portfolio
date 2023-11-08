@@ -84,7 +84,7 @@ font-weight: 700;
 }
 header{
     background: #FFF8F3;
-    background-image: url("/images/header_bg.png"),url("/images/developer.png"); 
+    background-image: url('/images/header_bg.png'),url('/images/developer.png'); 
     background-repeat: no-repeat;
     background-position: bottom right,left;
 }
@@ -320,4 +320,16 @@ border: none;
 .icon-0 img{
     margin-top: 30px;
     margin-right: 24px;
+}
+button:hover{
+    color: #757575;
+    background-color: lightgrey;
+    /* border: none; */
+}
+/* Hover Style Section */
+.what-0-1:hover{
+    background-color:rgba(202, 225, 227, 0.461);
+}
+.p-blog:hover{
+    color: #181818;
 }
