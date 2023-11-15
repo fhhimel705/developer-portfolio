@@ -331,11 +331,18 @@ button:hover{
 }
 /* Hover Style Section */
 .what-0-1:hover{
-    background-color:rgba(202, 225, 227, 0.461);
+    background-color:rgba(233, 220, 209, 0.639);
     transform: rotate(360deg);
     transition: transform 1s ease-in-out .5s;
+    /* color: #181818; */
 }
 
-.p-blog:hover{
+ .p-blog:hover{
     color: #181818;
+} 
+/* #p-hover:hover{
+    color: #181818;
+} */
+button:hover{
+    box-shadow: 5px 5px 5px darkslategray;
 }
