@@ -40,6 +40,7 @@ nav ul {
 margin: 0 200px;
 display: flex;
 align-items: center;
+position: relative;
 }
 .hi{
     color: var(--Dark-02, #474747);
@@ -87,7 +88,9 @@ header{
     background-image: url('/images/header_bg.png'),url('/images/developer.png'); 
     background-repeat: no-repeat;
     background-position: bottom right,left;
-}
+} 
+
+
 /* main section */
 main{
     max-width: 1140px;
@@ -329,7 +332,10 @@ button:hover{
 /* Hover Style Section */
 .what-0-1:hover{
     background-color:rgba(202, 225, 227, 0.461);
+    transform: rotate(360deg);
+    transition: transform 1s ease-in-out .5s;
 }
+
 .p-blog:hover{
     color: #181818;
 }
